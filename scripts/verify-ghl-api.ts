@@ -13,6 +13,11 @@
 // exercises each endpoint (all citations in-line below) -> writes
 // docs/STAGE0-API-REPORT.md with PASS/FAIL per data need.
 //
+// All doc-path citations below (apps/*.json, docs/oauth/*.md) resolve under
+// https://github.com/GoHighLevel/highlevel-api-docs (official specs,
+// fetched 2026-07-02); the endpoints run against the servers[] base
+// https://services.leadconnectorhq.com declared in those specs.
+//
 // This script is read-only against GHL and sends nothing anywhere else.
 
 import 'dotenv/config';
