@@ -44,7 +44,7 @@ Audit reference date used by tests and the demo: **2026-07-02T12:00:00Z**.
 | R5 | `loc_r5` | $50.00 | refund not credited to wallet |
 | R6 | `loc_r6` | $97.00 | one post-pause charge (2026-06-15) |
 
-Total: **8 findings, $463.00**. The four `loc_h*` accounts must produce zero.
+Total: **8 findings, $563.00**. The four `loc_h*` accounts must produce zero.
 
 ## File map
 

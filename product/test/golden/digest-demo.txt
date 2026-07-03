@@ -1,0 +1,25 @@
+SubAudit nightly digest — Khavion Demo Agency — 2026-07-02
+==========================================================
+12 sub-accounts audited. 8 open findings, $563.00 at stake. (8 new, 0 resolved since last run)
+
+[R1] Skipped invoices — 1 — $97.00
+  • Delta Plumbing: after a failed payment on the 2026-05 invoice, no invoice was generated for 2026-06. Estimated uncollected: $97.00.
+
+[R2] Status mismatches — 2 — $194.00
+  • Harbor Law: Stripe subscription sub_r2a is "canceled" but the location is still active in GHL. Serving unbilled: $97.00/month.
+  • Summit Yoga: GHL shows "canceled" but Stripe subscription sub_r2b is still "active". Client charged without service: $97.00/month (refund exposure).
+
+[R3] Price drift — 2 — $28.00
+  • Iron Gym: expected $97.00/month (plan Starter) but Stripe bills $87.00/month. Drift: $10.00/month (undercharging).
+  • Vine Florist: expected $79.00/month (special price) but Stripe bills $97.00/month. Drift: $18.00/month (overcharging).
+
+[R4] Expired trials on free access — 1 — $97.00
+  • Echo Media: trial ended 2026-06-01 (31 days ago) with no paying Stripe subscription, yet the location is still active. Uncollected: $97.00/month.
+
+[R5] Refund/wallet mismatches — 1 — $50.00
+  • loc_r5: $50.00 refunded in Stripe during 2026-06 but only $0.00 of wallet credits appear in the billing export. Unreconciled: $50.00.
+
+[R6] Paused but still billing — 1 — $97.00
+  • Pine Consulting: paused in GHL since 2026-06-10, but Stripe subscription sub_r6 charged $97.00 in 2026-06 (1 charge after the pause).
+
+Reply to this digest or open the dashboard for evidence details.
