@@ -1,0 +1,18 @@
+# Secrets: never commit environment files, anywhere in the tree
+.env
+*.env
+**/.env
+**/local.env
+!**/.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+
+# Local scratch
+*.log
+.DS_Store
+
+# Runtime artifacts that must stay local
+ops/approvals.log

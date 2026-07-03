@@ -1,0 +1,15 @@
+{
+  "name": "khavion",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Khavion automation monorepo: SubAudit product plane + ops plane files",
+  "workspaces": [
+    "product"
+  ],
+  "scripts": {
+    "build": "npm run build -w product",
+    "test": "npm run test -w product",
+    "demo": "npm run demo -w product",
+    "verify:ghl": "npm run verify:ghl -w product"
+  }
+}
