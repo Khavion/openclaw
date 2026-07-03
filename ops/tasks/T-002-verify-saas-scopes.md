@@ -5,9 +5,14 @@ state: NEW
 gate: none
 due: none
 ---
-The scopes doc (docs/oauth/Scopes.md) names saas/location.read and
-saas/company.write but the public-api SaaS read endpoints' exact scope
-labels are unconfirmed. When creating the marketplace app, record the exact
-scope names the UI offers for SaaS + payments + invoices + oauth, then run
-`npm run verify:ghl` (scripts/verify-ghl-api.ts) and check docs/STAGE0-API-REPORT.md.
-Acceptance: every R1-R4 data need scores PASS in the report.
+App target user is "Sub-account (Only Agency Can Install)" per the
+scope-architecture finding in docs/STAGE0-API-REPORT.md (founder confirmed
+Sub-Account billing scopes are hidden on Agency-target apps). Remaining
+unknowns: the exact SaaS read-scope labels offered on a Sub-account-target
+app (Scopes.md types saas/location.read as "Sub-Account, Agency" so it
+should appear), and whether the agency-install Company token passes the
+public-api SaaS endpoints' Agency-Access check. Record the scope names seen
+in the UI, run `npm run verify:ghl`, check the appended results table.
+Acceptance: every R1-R4 data need scores PASS in the report. If no SaaS
+read scope is selectable, escalate — fallback (two Private apps) is
+documented in the report but needs founder sign-off before building.

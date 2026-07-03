@@ -81,14 +81,19 @@ using a free sandbox. Do these clicks first:
    sub-account a SaaS plan with any monthly price.
 4. Back in the developer dashboard, go to **My Apps → Create App**:
    - Type: **Private**
-   - Distribution: **Agency**
+   - Target User / distribution: **Sub-account**, and where it asks who can
+     install, pick **Only Agency Can Install**.
+   - Do NOT pick "Agency" as the target user: that hides the billing scopes
+     we need. (Verified against HighLevel's docs — see
+     `docs/STAGE0-API-REPORT.md`, "Scope architecture". When the agency
+     installs a Sub-account app, we still receive the agency-level token our
+     SaaS checks need.)
 5. Open the new app's settings:
-   - **Scopes**: tick the read scopes for SaaS, payments, invoices, and
-     OAuth. Look for names like `saas/location.read`, `saas/company.read`
-     (tick whatever SaaS read scopes the list offers — write down their
-     exact names), `payments/subscriptions.readonly`,
-     `payments/transactions.readonly`, `invoices.readonly`,
-     `oauth.readonly`, and `oauth.write` (needed to fetch per-location data).
+   - **Scopes**: tick `invoices.readonly`, `payments/subscriptions.readonly`,
+     `payments/transactions.readonly`, `oauth.readonly`, `oauth.write`, and
+     every SaaS **read** scope the list offers (e.g. `saas/location.read`).
+     Write down the exact SaaS scope names you see. If NO SaaS read scope is
+     offered on this app type, stop and tell Claude Code — do not improvise.
    - **Redirect URL**: enter exactly `http://localhost:3000/oauth/callback`
    - Generate the **Client ID** and **Client Secret** and copy both.
 6. Put them into `product/.env` (`open -e product/.env`):
