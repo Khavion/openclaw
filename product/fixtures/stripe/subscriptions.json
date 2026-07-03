@@ -1,0 +1,233 @@
+[
+  {
+    "id": "sub_h1",
+    "object": "subscription",
+    "customer": "cus_h1",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_h2",
+    "object": "subscription",
+    "customer": "cus_h2",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_pro_m",
+            "unit_amount": 29700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_h3",
+    "object": "subscription",
+    "customer": "cus_h3",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 7900
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r2b",
+    "object": "subscription",
+    "customer": "cus_r2b",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r3",
+    "object": "subscription",
+    "customer": "cus_r3",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 8700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r3sp",
+    "object": "subscription",
+    "customer": "cus_r3sp",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r5",
+    "object": "subscription",
+    "customer": "cus_r5",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r6",
+    "object": "subscription",
+    "customer": "cus_r6",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_h4",
+    "object": "subscription",
+    "customer": "cus_h4",
+    "status": "trialing",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": 1784505600,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r1",
+    "object": "subscription",
+    "customer": "cus_r1",
+    "status": "active",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": null,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "sub_r2a",
+    "object": "subscription",
+    "customer": "cus_r2a",
+    "status": "canceled",
+    "currency": "usd",
+    "current_period_start": 1780272000,
+    "current_period_end": 1782864000,
+    "canceled_at": 1778803200,
+    "trial_end": null,
+    "items": {
+      "data": [
+        {
+          "price": {
+            "id": "price_basic_m",
+            "unit_amount": 9700
+          }
+        }
+      ]
+    }
+  }
+]

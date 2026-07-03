@@ -1,0 +1,5 @@
+location_id,date,type,description,amount,currency
+loc_h1,2026-06-20,wallet_credit,Refund credit for re_h1,20.00,usd
+loc_h1,2026-06-01,wallet_charge,SMS usage,12.50,usd
+loc_r5,2026-06-01,wallet_charge,SMS usage,8.00,usd
+loc_r6,2026-06-01,wallet_charge,Email usage,4.20,usd

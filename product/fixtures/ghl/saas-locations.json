@@ -1,0 +1,179 @@
+{
+  "locations": [
+    {
+      "locationId": "loc_h1",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_h1",
+      "customerId": "cus_h1",
+      "name": "Bright Dental",
+      "email": "loc_h1@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_h2",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_h2",
+      "customerId": "cus_h2",
+      "name": "Peak Realty",
+      "email": "loc_h2@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_pro_m",
+        "saasPlanId": "plan_pro"
+      }
+    },
+    {
+      "locationId": "loc_h3",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_h3",
+      "customerId": "cus_h3",
+      "name": "Cafe Luna",
+      "email": "loc_h3@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_h4",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_h4",
+      "customerId": "cus_h4",
+      "name": "Nova Fitness",
+      "email": "loc_h4@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r1",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r1",
+      "customerId": "cus_r1",
+      "name": "Delta Plumbing",
+      "email": "loc_r1@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r2a",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r2a",
+      "customerId": "cus_r2a",
+      "name": "Harbor Law",
+      "email": "loc_r2a@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r2b",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r2b",
+      "customerId": "cus_r2b",
+      "name": "Summit Yoga",
+      "email": "loc_r2b@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r3",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r3",
+      "customerId": "cus_r3",
+      "name": "Iron Gym",
+      "email": "loc_r3@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r3sp",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r3sp",
+      "customerId": "cus_r3sp",
+      "name": "Vine Florist",
+      "email": "loc_r3sp@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r4",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "customerId": "cus_r4",
+      "name": "Echo Media",
+      "email": "loc_r4@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r5",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r5",
+      "customerId": "cus_r5",
+      "name": "Coast Cleaners",
+      "email": "loc_r5@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    },
+    {
+      "locationId": "loc_r6",
+      "companyId": "comp_khavion_demo",
+      "saasMode": "saasV2",
+      "subscriptionId": "sub_r6",
+      "customerId": "cus_r6",
+      "name": "Pine Consulting",
+      "email": "loc_r6@example.com",
+      "isSaaSV2": true,
+      "subscriptionInfo": {
+        "priceId": "price_basic_m",
+        "saasPlanId": "plan_basic"
+      }
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 50,
+    "total": 12,
+    "totalPages": 1,
+    "hasNext": false,
+    "hasPrev": false
+  }
+}

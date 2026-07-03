@@ -1,0 +1,37 @@
+[
+  {
+    "planId": "plan_basic",
+    "title": "Starter",
+    "trialPeriod": 14,
+    "prices": [
+      {
+        "id": "price_basic_m",
+        "billingInterval": "month",
+        "active": true,
+        "amount": 97.0,
+        "currency": "USD"
+      },
+      {
+        "id": "price_basic_y",
+        "billingInterval": "year",
+        "active": true,
+        "amount": 970.0,
+        "currency": "USD"
+      }
+    ]
+  },
+  {
+    "planId": "plan_pro",
+    "title": "Pro",
+    "trialPeriod": 14,
+    "prices": [
+      {
+        "id": "price_pro_m",
+        "billingInterval": "month",
+        "active": true,
+        "amount": 297.0,
+        "currency": "USD"
+      }
+    ]
+  }
+]

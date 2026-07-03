@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cus_h1",
+    "object": "customer",
+    "email": "loc_h1@example.com",
+    "name": "Bright Dental"
+  },
+  {
+    "id": "cus_h2",
+    "object": "customer",
+    "email": "loc_h2@example.com",
+    "name": "Peak Realty"
+  },
+  {
+    "id": "cus_h3",
+    "object": "customer",
+    "email": "loc_h3@example.com",
+    "name": "Cafe Luna"
+  },
+  {
+    "id": "cus_r2b",
+    "object": "customer",
+    "email": "loc_r2b@example.com",
+    "name": "Summit Yoga"
+  },
+  {
+    "id": "cus_r3",
+    "object": "customer",
+    "email": "loc_r3@example.com",
+    "name": "Iron Gym"
+  },
+  {
+    "id": "cus_r3sp",
+    "object": "customer",
+    "email": "loc_r3sp@example.com",
+    "name": "Vine Florist"
+  },
+  {
+    "id": "cus_r5",
+    "object": "customer",
+    "email": "loc_r5@example.com",
+    "name": "Coast Cleaners"
+  },
+  {
+    "id": "cus_r6",
+    "object": "customer",
+    "email": "loc_r6@example.com",
+    "name": "Pine Consulting"
+  },
+  {
+    "id": "cus_h4",
+    "object": "customer",
+    "email": "loc_h4@example.com",
+    "name": "Nova Fitness"
+  },
+  {
+    "id": "cus_r1",
+    "object": "customer",
+    "email": "loc_r1@example.com",
+    "name": "Delta Plumbing"
+  },
+  {
+    "id": "cus_r2a",
+    "object": "customer",
+    "email": "loc_r2a@example.com",
+    "name": "Harbor Law"
+  },
+  {
+    "id": "cus_r4",
+    "object": "customer",
+    "email": "loc_r4@example.com",
+    "name": "Echo Media"
+  }
+]

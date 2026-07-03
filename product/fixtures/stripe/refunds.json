@@ -1,0 +1,20 @@
+[
+  {
+    "id": "re_h1",
+    "object": "refund",
+    "charge": "ch_h1_ref",
+    "amount": 2000,
+    "status": "succeeded",
+    "currency": "usd",
+    "created": 1781913600
+  },
+  {
+    "id": "re_r5",
+    "object": "refund",
+    "charge": "ch_r5_2",
+    "amount": 5000,
+    "status": "succeeded",
+    "currency": "usd",
+    "created": 1782086400
+  }
+]
