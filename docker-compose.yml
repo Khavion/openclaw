@@ -1,0 +1,53 @@
+# Future VPS deployment (design doc §2: one Hetzner-class VPS, Docker Compose,
+# Caddy for TLS at app.khavion.com). NOTHING in local dev or tests depends on
+# this file; local dev uses Homebrew Postgres directly.
+#
+# Deploy day checklist lives in README-OPERATIONS.md. Secrets come from a
+# server-side .env file that is never committed (same rules as local).
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: product/Dockerfile   # authored at deploy time (G3 gate)
+    restart: unless-stopped
+    env_file: product/.env
+    environment:
+      DATABASE_URL: postgres://subaudit:${POSTGRES_PASSWORD}@db:5432/subaudit
+      APP_MODE: real
+    depends_on:
+      db:
+        condition: service_healthy
+    expose:
+      - "3000"
+
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: subaudit
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: subaudit
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U subaudit"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+    depends_on:
+      - app
+
+volumes:
+  pgdata:
+  caddy_data:
