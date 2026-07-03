@@ -1,0 +1,6 @@
+{
+  "name": "@khavion/scripts",
+  "private": true,
+  "type": "module",
+  "description": "Standalone operational scripts (Stage 0 verification). Run via npm run verify:ghl at the repo root."
+}
